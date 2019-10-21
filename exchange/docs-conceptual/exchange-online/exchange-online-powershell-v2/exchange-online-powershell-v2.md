@@ -168,12 +168,12 @@ The EXO V2 module cmdlets have categorized output properties. Instead of giving 
 
 Property sets are controlled by the following parameters on the EXO V2 module cmdlets:
 
-- *PropertySets*: This parameter accepts one or more available property set names (with or without wildcards) separated by commas.
+- *PropertySets*: This parameter accepts one or more available property set names separated by commas.
 
   This example returns the properties that are available in the Archive and Custom property sets:
 
   ```PowerShell
-  Get-EXOMailbox -PropertySets Archive,Custom*
+  Get-EXOMailbox -PropertySets Archive,Custom
   ```
 
 - *Properties*: This parameter accepts one or more property names (with or without wildcards) separated by commas.
